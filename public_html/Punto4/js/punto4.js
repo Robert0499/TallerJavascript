@@ -1,0 +1,11 @@
+var nombre=(prompt("Digite su nombre"));
+var tipo=(prompt("Digite tipo de documento"));
+var numero=(prompt("Digite su numero de documento"));
+var gen=(prompt("Genero Biologico"));
+var esta=(prompt("Ingrese su estatura"));
+var life=(prompt("¿Es verdad que vivo en cartago? Falso o Verdadero"));
+console.log("Hola mi nombre es: "+ nombre);
+console.log("Mi numero de "+ tipo + " es: "+ numero);
+console.log("Genero Biologico "+ gen );
+console.log("Mi estatura es "+ esta );
+console.log("Es verdad que vivo en Cartago: "+ life );
