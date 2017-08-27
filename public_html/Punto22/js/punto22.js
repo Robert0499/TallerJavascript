@@ -1,0 +1,11 @@
+var year = Number(prompt("Enter years to perform the calculation"));
+var month = (year * 12);
+var day = (year * 365);
+var hour = (24 * 365 * year);
+var minute = (60 * 24 * 365 * year);
+var second = (60 * 60 * 24 * 365 * year);
+console.log("In years there are: " + month + " monhts");
+console.log("Has: " + day + " days");
+console.log("Has: " + hour + " hours");
+console.log("Has: " + minute + " minutes");
+console.log("Has: " + second + " seconds");
