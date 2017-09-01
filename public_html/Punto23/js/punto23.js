@@ -11,7 +11,7 @@ restaFechas = function(f1,f2) {
  rsp[2] = Math.floor(dif / (1000 * 60 * 60 * (24*365)));
  
  return rsp;
- }
+ };
  var f1 = (prompt("Enter date: DD/MM/AA"));
  var f2 = (prompt("Enter date: DD/MM/AA"));
  var rsp= restaFechas(f1,f2);

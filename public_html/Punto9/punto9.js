@@ -1,9 +1,9 @@
-var NUM = prompt('Ingrese el numero para saber si es primo ');
-NUM0 = Number(NUM);
+var NUM = Number(prompt('Ingrese el numero para saber si es primo '));
+//NUM0 = Number(NUM);
 numeroPrimo = true;
-for (i = 1; i < NUM0; i++)
+for (i = 1; i < NUM; i++)
 {
-  if (NUM0 / i == Math.round(NUM0 / i) && i != 1 && i != NUM0) {
+  if (NUM / i == Math.round(NUM / i) && i != 1 && i != NUM) {
     numeroPrimo = false;
     break;
 
@@ -12,6 +12,6 @@ for (i = 1; i < NUM0; i++)
 }
 ;
 if (numeroPrimo)
-  console.log(`El numero  ${NUM0} es primo`);
+  console.log(`El numero  ${NUM} es primo`);
 else
-  console.log("EL numero " + NUM0 + "   " + "no es primo");
+  console.log("EL numero " + NUM + "   " + "no es primo");

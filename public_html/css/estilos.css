@@ -1,8 +1,13 @@
 /* -- HEADER -- */
 body {
+  font-family: 'Roboto', sans-serif;
   background-image: url('../Punto1/img/java.jpg');
+ 
 }
-
+/*img #imagen {
+    width: 1000px;
+    height: 1000px;
+}*/
 .adaptation{
   width: 100%;
   height: 100%;
@@ -57,4 +62,10 @@ body {
 		margin-bottom: 20px;
 		margin-right: 0;
 	}
+}
+@media screen and (max-width: 1204){
+    body  {
+        width: 100px;
+        height: 100px;
+    }
 }

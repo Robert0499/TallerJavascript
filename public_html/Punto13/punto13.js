@@ -1,36 +1,57 @@
-//var i=0;
-//var esp = 6, asterisco = 1;
-//do {
-//    var rsp = '';
-//    var rspas = '';
-//    var iesp = 0, iasterisco = 0;
-//    while (iesp < esp) {
-//        rsp = rsp + ' ';
-//        iesp++;
-//    }
-//    esp--;
-//    while (iasterisco < asterisco) {
-//        rspas = rspas + '*';
-//        (iasterisco++);
-//    }
-//    asterisco++;
-//    console.log(rsp + rspas);
-//    i++;
-//} while (i <= 12);
-var i = 0;
-var x = "*";
-var c = " ";
+let x = "*";
+for (let y = 0;  y <= 7; y++) {
+  x = x + "*";
+}
+for (let i = 0; i <= 13; i++) {
+  if (x.length === 9) {
+    switch (i) {
+      case 0:
+        console.log(`      ${x.slice(2, 3)}`);
+        break;
+      case 1:
+        console.log(`     ${x.slice(2, 5)}`);
+        break;
+      case 2:
+        console.log(`    ${x.slice(2, 7)}`);
+        break;
+      case 3:
+        console.log(`   ${x.slice(2, 9)}`);
+        break;
+      case 4:
+        console.log(`     ${x.slice(2, 5)}`);
+        break;
+      case 5:
+        console.log(`     ${x.slice(2, 5)}`);
+        break;
+      case 6:
+        console.log(`    ${x.slice(2, 7)}`);
+        break;
+      case 7:
+        console.log(`   ${x.slice(2, 9)}`);
+        break;
+      case 8:
+        console.log(x);
+        break;
+      case 9:
+        console.log(`   ${x.slice(2, 9)}`);
+        break;
+      case 10:
+        console.log(`   ${x.slice(2, 7)}`);
+        break;
+      case 11:
+        console.log(`   ${x.slice(2, 5)}`);
+        break;
+      case 12:
+        console.log(`   ${x.slice(2, 3)}`);
+        break;
+      default:
+        break;
 
-do {
-    c = c + x;
-    console.log(c );
-    
-    i++;
-
-    if (i + 1 === 12) {
-        c = c + x;
-        console.log(c);
-        i++;
     }
 
-} while (i <= 12);
+
+  }
+
+
+}
+
