@@ -1,2 +1,2 @@
-var name =prompt("Digite su nombre");
-console.log("Hola soy " +  name + " y me siento feliz de estar aprendiendo JavaScript");
+var name =prompt("Enter Your name");
+console.log("Hello i am " +  name + " and I'm happy to be learning JavaScript");

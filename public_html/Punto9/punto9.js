@@ -1,9 +1,9 @@
-var NUM = Number(prompt('Ingrese el numero para saber si es primo '));
+var NUM = Number(prompt(" Enter the number to know if it is cousin "));
 //NUM0 = Number(NUM);
 numeroPrimo = true;
 for (i = 1; i < NUM; i++)
 {
-  if (NUM / i == Math.round(NUM / i) && i != 1 && i != NUM) {
+  if (NUM / i === Math.round(NUM / i) && i !== 1 && i !== NUM) {
     numeroPrimo = false;
     break;
 
@@ -12,6 +12,6 @@ for (i = 1; i < NUM; i++)
 }
 ;
 if (numeroPrimo)
-  console.log(`El numero  ${NUM} es primo`);
+  console.log(`The number  ${NUM} is cousin`);
 else
-  console.log("EL numero " + NUM + "   " + "no es primo");
+  console.log("The number " + NUM + " not is cousin");

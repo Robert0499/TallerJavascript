@@ -1,2 +1,2 @@
-var name=("Hola, este es mi primer script en JavaScript almacenado en una variable");
+var name=("Hello, this is my first JavaScript script stored in a variable");
 console.log(name);

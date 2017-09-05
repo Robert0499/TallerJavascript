@@ -1,6 +1,6 @@
-var a=(prompt("Ingrese variable 1"));
-var b=(prompt("Ingrese variable 2"));
-var c=(prompt("Ingrese varibale 3"));
+var a=(prompt("Enter variable one"));
+var b=(prompt("Enter variable two"));
+var c=(prompt("Enter varibale three"));
 
 var result=(b*c/a);
-console.log("El resultado es: "+ result);
+console.log("The result is: " + result);

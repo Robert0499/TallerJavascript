@@ -1,5 +1,5 @@
-var num1=(prompt("Ingrese Variable 1"));
-var num2=(prompt("Ingrese Variable 2"));
+var num1=(prompt("enter the value one"));
+var num2=(prompt("enter the value two"));
 
 var result=(num1**num2);
 console.log(num1 + " to "+ num2 + " is: " + result);
@@ -8,16 +8,16 @@ var result=(num2**num1);
 console.log(num2 + " to "+ num1 + " is: " + result);
 
 var result=(num1*num2);
-console.log("La multiplicacion entre: "+ num1 +  " and " + num2 + " is "+ result);
+console.log("The multiplication between: "+ num1 +  " and " + num2 + " is "+ result);
 
 var result=(num1/num2);
-console.log("La division entre: "+ num1 + " and "+ num2 + " is "+ result);
+console.log("The division between: "+ num1 + " and "+ num2 + " is "+ result);
 
 var result=(num2/num1);
-console.log("La division entre: "+ num2 + " and "+ num1 + " is "+ result);
+console.log("The division between: "+ num2 + " and "+ num1 + " is "+ result);
 
 var result=(num1%num2);
-console.log("El modulo de la divison entre: "+ num1 + " and " + num2 + " is "+ result);
+console.log("the division module between: "+ num1 + " and " + num2 + " is "+ result);
 
 
 
