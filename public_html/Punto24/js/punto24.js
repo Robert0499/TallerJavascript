@@ -12,6 +12,4 @@ if (hours >= 168 ){
 }else {
   alert("Number of hours do not equilibrate to a week");
   console.log("Number of hours do not equilibrate to a week");
-}
-  
-
+  }
