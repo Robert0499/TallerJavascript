@@ -1,57 +1,30 @@
-let x = "*";
-for (let y = 0;  y <= 7; y++) {
-  x = x + "*";
-}
-for (let i = 0; i <= 13; i++) {
-  if (x.length === 9) {
-    switch (i) {
-      case 0:
-        console.log(`      ${x.slice(2, 3)}`);
-        break;
-      case 1:
-        console.log(`     ${x.slice(2, 5)}`);
-        break;
-      case 2:
-        console.log(`    ${x.slice(2, 7)}`);
-        break;
-      case 3:
-        console.log(`   ${x.slice(2, 9)}`);
-        break;
-      case 4:
-        console.log(`     ${x.slice(2, 5)}`);
-        break;
-      case 5:
-        console.log(`     ${x.slice(2, 5)}`);
-        break;
-      case 6:
-        console.log(`    ${x.slice(2, 7)}`);
-        break;
-      case 7:
-        console.log(`   ${x.slice(2, 9)}`);
-        break;
-      case 8:
-        console.log(x);
-        break;
-      case 9:
-        console.log(`   ${x.slice(2, 9)}`);
-        break;
-      case 10:
-        console.log(`   ${x.slice(2, 7)}`);
-        break;
-      case 11:
-        console.log(`   ${x.slice(2, 5)}`);
-        break;
-      case 12:
-        console.log(`   ${x.slice(2, 3)}`);
-        break;
-      default:
-        break;
+var aste = "*";
+var spa= "    ";
+var resul = "";
+var p = "";
+var w = " ";
 
+for (i =1; i<=13; i++) {
+	if(i===1){
+		resul=spa+aste;
+		console.log(resul);
+	}
+	if (i>=2 && i<=4) {
+		if (i===3) {
+			p=resul;
+		}
+		console.log(resul=resul.slice(1)+aste+aste);
+	}
+	if (i===5) {
+		console.log(p);
+	}
+	if (i===6) {
+		console.log(p);
+	}
+	if (i>=7 && i<=9) {
+		console.log(p=p.slice(1)+aste+aste);
+	}
+	if (i>9) {
+		console.log(p=w+p.slice(0,-2));
+	}
     }
-
-
-  }
-
-
-}
-
