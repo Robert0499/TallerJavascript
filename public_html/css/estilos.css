@@ -1,13 +1,17 @@
 /* -- HEADER -- */
+/*#imagen {
+  size: 1000px;
+  
+}*/
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url('../Punto1/img/text.jpg');
+  background-image: url('../Punto1/img/javascript.jpg');
  
-}
-/*img #imagen {
+}/*
+img #imagen {
     width: 1000px;
     height: 1000px;
-}*/
+}
 .adaptation{
   width: 100%;
   height: 100%;
@@ -26,7 +30,7 @@ body {
 	padding:20px 0;
 }
 
-/* -- POST -- */
+ -- POST -- 
 .main {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -55,7 +59,7 @@ body {
 	width: 100%;
 }
 
-/* -- Media Querie -- */
+ -- Media Querie -- 
 @media screen and (max-width: 768px) {
 	.post .thumb {
 		width: 100%;
@@ -68,4 +72,4 @@ body {
         width: 100px;
         height: 100px;
     }
-}
+}*/

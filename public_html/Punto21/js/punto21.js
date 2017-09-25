@@ -1,5 +1,5 @@
-var a = Number(prompt("Enter The variable a" ));
-var b = Number(prompt("Enter The variable b"));
+var a = parseInt(prompt("Enter The variable a" ));
+var b = parseInt(prompt("Enter The variable b"));
 var c = Math.round(a**2+b**2);
 //var resultado=Math.pow(a,1/b); 
 var p = Math.round(c**1/2);
