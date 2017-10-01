@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" type="text/css">
+  </head>
+  <body>      
+
+    <div class="container jumbotron">
+      <h1 style="text-align: center">Point 50</h1><br>
+
+      <div class="col-xs-3 col-lg-offset-5">
+        <input type="number" class="form-control" id="emple" placeholder="Enter number of employees"><br>
+        <button class="btn btn-primary" onclick="prin()">send</button><br><br>
+        <p id="p1" style="text-align: center"></p><br><br>
+      </div>
+
+
+      <div class="col-xs-3 col-lg-offset-5">
+        <input type="text" class="form-control" id="name" placeholder="Name of electrician"><br>
+        <input type="number" class="form-control" id="nu" placeholder="Enter number of hours worked"><br>
+        <button class="btn btn-primary" onclick="vol()">send</button><br><br>
+        <p id="p2" style="text-align: center"></p>
+        <p id="p3" style="text-align: center"></p>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="asd">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Point 50</h4>
+          </div>
+          <div class="modal-body">
+            <p id="resul"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/punto50.js" type="text/javascript"></script>
+  </body>
+</html>

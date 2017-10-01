@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/Punto42.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" type="text/css">
+
+    </head>
+    <body>
+        <div class="container jumbotron">
+            <p class="col-lg-offset-4">Enter the value one</p>
+            <input id="result1" class="btn col-lg-offset-4 " >
+            <br>
+            <br>
+            <p class="col-lg-offset-4">Enter the value two</p>
+            <input id="result2" class="btn col-lg-offset-4 " >
+            <br>
+            <br>
+            <button class="btn btn-success col-lg-offset-4" onclick="prin()" data-toggle="modal" data-target=".bd-example-modal-lg">Result</button>
+            <br>
+            <br>
+            <!--            <p id="res" class="col-lg-offset-4"></p>-->
+            <br>
+            <br>
+            <!--            <p id ="res1" class="col-lg-offset-4"></p>-->
+            <br>
+            <br>
+            <!--            <p id="res2" class="col-lg-offset-4"></p>-->
+
+            <div class="modal fade bd-example-modal-lg" id="Modal" >
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header row">
+                            <h2 class="modal-title col-lg-offset-4"  > Exercice 40</h2>
+                            <button type= "button" class="col close" data-dismiss="modal" aria-label="Close">
+                              
+                            </button>
+                            <div class="modal-body" >
+                                <p id="res" class="col-lg-offset-4"></p>
+                                <p id ="res1" class="col-lg-offset-4"></p>
+                                <p id="res2" class="col-lg-offset-4"></p>
+                                <p id="res3" class="col-lg-offset-4"></p>
+                                <p id="res4" class="col-lg-offset-4"></p>
+                                <p id="res5" class="col-lg-offset-4"></p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type= "button" class="btn btn-primary" data-dismiss="modal" >Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/punto43.js" type="text/javascript"></script>
+    </body>
+</html>
