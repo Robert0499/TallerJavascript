@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class=" container text-center my-2" >
+        <form id="opp">
+          <div class="form-group ">
+            <button type="button" class="btn btn-primary form-control " id="sum">Personal information</button>
+          </div>
+          <div class="form-group">
+            <button type="button" class="btn btn-primary form-control" id="rest">Family reference</button>
+          </div>
+          <div class="form-group">
+            <button type="button" class="btn btn-primary form-control" id="mult">Professional profile description</button>
+          </div>
+          <div class="form-group ">
+            <button type="button" class="btn btn-primary form-control" id="div">Print resume</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container ">
+      <form class="form-horizontal" id="form__input">
+        <div class="form-group" id="form">
+          <label for="numero1" class="control-label col-md-2">Name</label>
+          <div class="col-md-10">
+            <input type="email" class="form-control" id="numero1" placeholder="Enter your name">
+          </div>
+        </div>
+        <div class="form-group" id="form2">
+          <label for="numero2" class="col-md-2 control-label">Identification</label>
+          <div class="col-md-10">
+            <input type="number" class="form-control" id="numero2" placeholder="identification document">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="numero3" class="col-md-2 control-label">Civil status</label>
+          <div class="col-md-2">
+            <input type="text" class="form-control" id="numero3" placeholder="Enter your civil status">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-md-offset-2 col-md-10">
+            <button type="button" class="btn btn-success" id="atras" >back</button>
+            <button type="button" class="btn btn-success" id="result" >Result</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+
+
+
+    <!--    <div class="container">
+          <form id="form__input">
+            <div class="form-control" id="form">
+              <div class="form-group">
+                <label for="numero1">Enter your name</label><br>
+                <input type="text" class="btn form-control" id="numero1" placeholder="Enter your name">
+              </div>
+            </div><br>
+            <div class="form-control" id="form2">
+              <div class="form-group">
+                <label  for="numero1">Number two</label><br>
+                <input type="number" class="btn form-control" style="width: 50%" id="numero2" placeholder="Enter the num two">
+              </div>
+            </div><br>
+            <div class="container col-lg-offset-5"><br>
+              <button type="button" class="btn btn-danger col-lg-offset--6" id="atras">Back</button><br><br>
+              <button type="button" class="btn btn-danger col-lg-offset--6" id="result">Result</button>
+            </div>
+          </form>
+        </div>-->
+    <!--        </div>
+    -->            <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="Mymodal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Result</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="resultado">
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="Cerrar">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="js/punto69.js" type="text/javascript"></script>
+  </body>
+</html>

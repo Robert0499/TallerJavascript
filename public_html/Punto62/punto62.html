@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    
+    <div class="container jumbotron justify-content-center my-5">
+      <div class=" container text-center my-2" >
+        <form id="opp">
+          <div class=" container text-center my-2">
+            <button type="button" class="btn btn-danger" id="sum">Sum</button>
+          </div><br>
+          <div class=" container text-center my-2">
+            <button type="button" class="btn btn-danger" id="rest">Substraction</button>
+          </div><br>
+          <div class=" container text-center my-2">
+            <button type="button" class="btn btn-danger" id="mult">Multiplication</button>
+          </div><br>
+          <div class=" container text-center my-2">
+            <button type="button" class="btn btn-danger" id="div">Division</button>
+          </div>
+        </form>
+      </div>
+      <div class=" container jumbotron" >
+        <form id="form__input">
+          <div class="form-row align-items-center" id="form">
+            <div class="col-lg-offset-3">
+              <label  for="numero1">Number one</label><br>
+              <input type="number" class="btn form-control mb-2 mb-sm-0" style="width: 50%" id="numero1" placeholder="Enter the num one">
+            </div>
+          </div><br>
+          <div class="form-row align-items-center" id="form2">
+            <div class="col-lg-offset-3">
+              <label  for="numero1">Number two</label><br>
+              <input type="number" class="btn form-control mb-2 mb-sm-0" style="width: 50%" id="numero2" placeholder="Enter the num two">
+            </div>
+          </div><br>
+          <div class="container col-lg-offset-5"><br>
+            <button type="button" class="btn btn-danger col-lg-offset--6" id="atras">Back</button><br><br>
+            <button type="button" class="btn btn-danger col-lg-offset--6" id="result">Result</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="Mymodal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Result</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="resultado">
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="Cerrar">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+    
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="js/punto62.js" type="text/javascript"></script>
+  </body>
+</html>

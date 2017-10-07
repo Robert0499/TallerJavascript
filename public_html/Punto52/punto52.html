@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <div class="container jumbotron" >
+            <h1 class="col-lg-offset-5">Point 52</h1><br><br>
+            <div class="col-lg-offset-5">
+
+                <p>Enter variable one</p>
+                <input class="btn" type="number" id="bir"><br><br>
+                <p>Enter variable two</p>
+                <input class="btn" type="number" id="resul1">
+                <button class="btn btn-danger" onclick="pri()" data-toggle="modal" data-target=".bd-example-modal-lg">Result</button>
+
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="Modal" >
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header row">
+                            <h2 class="modal-title col-lg-offset-4"  >Exercice 52</h2>
+                            <button type= "button" class="col close" data-dismiss="modal" aria-label="Close">
+
+                            </button>
+                            <div class="modal-body" >
+                                <p id="resul" class="col-lg-offset-4"></p> 
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type= "button" class="btn btn-danger" data-dismiss="modal" >Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/punto52.js" type="text/javascript"></script>
+    </body>
+</html>
