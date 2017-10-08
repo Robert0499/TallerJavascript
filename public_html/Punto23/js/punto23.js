@@ -16,6 +16,6 @@ restaFechas = function(f1,f2) {
  var f2 = (prompt("Enter date: DD/MM/AA"));
  var rsp= restaFechas(f1,f2);
  console.log("The difference in days is: "+ rsp[0]);
- console.log("Th difference in months is: "+ rsp[1]);
+ console.log("The difference in months is: "+ rsp[1]);
  console.log("The difference in years is: "+ rsp[2]);
  

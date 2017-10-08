@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container jumbotron" >
+            <h1 class="col-lg-offset-5">Point 59</h1><br><br>
+            <div class="col-lg-offset-5">
+
+                <p>Enter date one</p>
+                <input class="btn" type="date" id="fecha1" placeholder="Enter date one"><br><br>
+                <p>Enter date one</p>
+                <input class="btn" type="date" id="fecha2" placeholder="Enter date two"><br><br>
+
+                <button class="btn btn-danger" onclick="fecha()" data-toggle="modal" data-target=".bd-example-modal-lg">Result</button>
+                <p id="ja"></p>
+
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="Modal" >
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header row">
+                            <h2 class="modal-title col-lg-offset-4"  >Exercice 59</h2>
+                            <button type= "button" class="col close" data-dismiss="modal" aria-label="Close">
+
+                            </button>
+                            <div class="modal-body" >
+                                <p id="resul" class="col-lg-offset-4"></p><br><br>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type= "button" class="btn btn-danger" data-dismiss="modal" >Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/punto59.js" type="text/javascript"></script>
+    </body>
+</html>

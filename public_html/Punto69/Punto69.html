@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/newcss.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="principal" class="container">
+      <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+          <div class="form-group">
+            <button  id="cpNombre" class=" btn btn-primary form-control ">Personal information</button>
+            <button id="cpTelefono" class="btn btn-primary form-control">Family reference</button>
+            <button id ="job" class="btn btn-primary form-control">Job reference</button>
+            <button  id="pro" class="btn btn-primary form-control">Professional profile description</button>
+            <button id="cpRespuesta"  class="btn btn-primary form-control" data-toggle="modal" data-target="#miModal">Print resume</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="pagina1" class="container ocultar">
+      <form class="col-md-offset-4 col-md-4">
+        <div class="form-group">
+          <label for="nombre">Name</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="ID">Identification document</label>
+          <input type="number" class="form-control" id="ID" placeholder="Enter your identification document">
+        </div>
+        <div class="form-group">
+          <label for="sta">Civil status</label>
+          <input type="text" class="form-control" id="sta" placeholder="Enter your civil status">
+        </div>
+        <div class="form-group">
+          <label for="add">Address</label>
+          <input type="text" class="form-control" id="add" placeholder="Enter your address">
+        </div>
+        <div class="form-group">
+          <label for="telefono">Phone</label>
+          <input type="number" class="form-control" id="telefono" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+          <label for="ema">Email</label>
+          <input type="text" class="form-control" id="ema" placeholder="Enter your E-mail">
+        </div>
+
+        <button id="cptP1" type="button" class="btn btn-primary">Capture</button>
+        <button id="clnP1" type="button" class="btn btn-primary">Back</button>
+      </form>
+    </div>
+
+    <div id="pagina2" class="container ocultar">
+      <form class="col-md-offset-4 col-md-4">
+        <div class="form-group">
+          <label for="telefono1">Name</label>
+          <input type="text" class="form-control" id="telefono1" placeholder="Enter the person's name">
+        </div>
+        <div class="form-group">
+          <label for="rela">Relationship</label>
+          <input type="text" class="form-control" id="rela" placeholder="Enter relationship">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="number" class="form-control" id="phone" placeholder="Enter phone number">
+        </div>
+        <div class="form-group">
+          <label for="posi">Position</label>
+          <input type="text" class="form-control" id="posi" placeholder="Enter position">
+        </div>
+        <button id="cptP2" type="button" class="btn btn-primary">Capture</button>
+        <button id="clnP2" type="button" class="btn btn-primary">Back</button>
+      </form>
+    </div>
+    <div id="pagina3" class="container ocultar">
+      <form class="col-md-offset-4 col-md-4">
+        <div class="form-group">
+          <label for="comp">Company</label>
+          <input type="text" class="form-control" id="comp" placeholder="Enter the company">
+        </div>
+        
+        <div class="form-group">
+          <label for="time">Time worked</label>
+          <input type="text" class="form-control" id="time" placeholder="Enter the time worked">
+        </div>
+        <div class="form-group">
+          <label for="boss">Boss</label>
+          <input type="text" class="form-control" id="boss" placeholder="Enter your immediate boss">
+        </div>
+        
+        <button id="1" type="button" class="btn btn-primary">Capture</button>
+        <button id="2" type="button" class="btn btn-primary">Back</button>
+      </form>
+    </div>
+    <div id="pagina4" class="container jumbotron ocultar">
+      <form class="col-md-offset-4 col-md-4">
+        <div class="form-group">
+          <label for="mes">Profesional profile</label>
+          <textarea id="mes" class="form-control" placeholder="Write your profesional profile"></textarea>
+
+        </div>
+        <button id="3" type="button" class="btn btn-primary">Capture</button>
+        <button id="4" type="button" class="btn btn-primary">Back</button>
+
+
+      </form>
+    </div>
+    <!--     <div id="pagina5" class="container jumbotron ocultar">
+          <form class="col-md-offset-4 col-md-4">
+            <div class="form-group">
+              <label for="prip">Personal Information</label>
+              <input disabled class="form-control" id="prip">
+             
+    
+            </div>
+           
+            <button id="5" type="button" class="btn btn-primary">Back</button>
+    
+    
+          </form>
+        </div>
+    -->
+    <div class="modal fade" tabindex="-1" id="miModal" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content ">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Point 69</h4>
+          </div>
+          <div class="modal-body">
+            <h3 id="resp"></h3>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+
+
+
+    <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="js/vista.js" type="text/javascript"></script>
+    <script src="js/BaseDeDatos.js" type="text/javascript"></script>
+    <script src="js/principal.js" type="text/javascript"></script>
+    <script>
+      var app = new principal();
+      app.textNombre = 'nombre';
+      app.textTelefono = 'telefono';
+      app.correr();
+    </script>
+  </body>
+</html>

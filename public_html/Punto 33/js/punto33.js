@@ -50,7 +50,7 @@ class info {
     console.log("Position: " + this._job.position);
     console.log("Time worked" + this._job.time);
     console.log("Immediate boss: " + this._job.boss);
-    console.lo("Phone number" + this._job.phone2);
+    console.log("Phone number" + this._job.phone2);
 
 
     console.log("Professional profile:");
