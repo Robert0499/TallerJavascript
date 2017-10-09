@@ -1,0 +1,41 @@
+<div style="padding: 5%;" class="container">
+    <form class="col-md-offset-4 col-md-4">
+        <label>Add at contact</label>
+        <div class="form-row">
+            <div class="form-group">
+                <label class="control-label col-md-4">Name</label>
+                <input required ng-model="contac.name" type="text" class="form-control" placeholder="Enter the name of contact">
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-4">lastname</label>
+                <input required ng-model="contac.last" type="text" class="form-control" placeholder="Enter the lastname of contact">
+
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-4">Phone</label>
+                <input required ng-model="contac.tel" type="text" class="form-control" placeholder="Enter the number phone of contact">
+
+            </div>
+
+        </div>
+        <div class="container text-center my-2">
+            <button type="button" class="btn btn-success" ng-click="add()">Add</button>
+
+        </div>
+  
+
+    </form>
+
+</div>
+<div class="container jumbotron">
+    <label class="col-form-label">Contacts</label>
+    <div ng-repeat="person in people">
+        <details ng-open="showPerson">
+            <summary>{{person.name}}</summary>
+            <p>lastname: {{person.last}}</p>
+            <p>Phone: {{person.tel}}</p>
+        </details>
+    </div>
+</div>
+
