@@ -1,0 +1,65 @@
+body{
+  overflow-x: hidden;
+}
+#form__input{
+  position: absolute;
+  width: 100%;
+  margin-top: -10%;
+  margin-left:  110vw;
+}
+#opp {
+  font-family: cursive;
+  font-style: oblique;
+
+}
+#sum , #rest , #mult ,  #div {
+  width: 30%;
+  height: 4%;
+}
+#numero1 {
+  width: 15%;
+}
+#numero2 {
+  width: 15%;
+}
+.container{
+  padding: 10px;
+}
+/*#form1 {
+  width: 450px;
+  margin: auto;
+  background: rgba(0,0,0,0.6);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 28px;
+  border-radius: 20px;
+}
+h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+#boton {
+  background: #31384A;
+  color: #fff;
+  padding: 10px;
+}
+#boton:hover {
+  cursor: pointer;
+}*/
+@media (max-width:480px) {
+  form {
+    width: 100%;
+  }
+}
+

@@ -1,4 +1,5 @@
 <html>
+<<<<<<< HEAD
   <head>
     <title>TODO supply a title</title>
     <meta charset="UTF-8">
@@ -119,4 +120,126 @@
     </script>
 
   </body>
+=======
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/punto68.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Point 68</h1>
+            
+        </div>
+        <div id="principal" class="container">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-4">
+                    <div class="form-group">
+                        <button  id="cpNombre" class="form-control btn btn-success">Make a sum</button>
+                        <button  id="cpTelefono" class="form-control btn btn-success">Perform a subtraction</button>
+                        <button  id="cpRespuesta" class="form-control btn btn-success">Perform a multiplication</button>
+                        <button  id="divi" class="form-control btn btn-success">Make a division</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pagina1" class="container ocultar">
+            <form class="col-md-offset-4 col-md-4">
+                <div class="form-group">
+                    <label for="nombre">Enter number one</label>
+                    <input type="number" class="form-control" id="nombre" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="num">Enter number two</label>
+                    <input type="number" class="form-control" id="num" placeholder="">
+                </div>
+                <button id="cptP1" type="button" class="btn btn-success" data-toggle="modal" data-target="#miModal">Result</button>
+                <button id="clnP1" type="button" class="btn btn-success">Back</button>
+                <p id="y"></p>
+            </form>
+        </div>
+        <div id="pagina2" class="container ocultar">
+            <form class="col-md-offset-4 col-md-4">
+                <div class="form-group">
+                    <label for="num1">Enter number one</label>
+                    <input type="number" class="form-control" id="num1" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="num2">Enter number two</label>
+                    <input type="number" class="form-control" id="num2" placeholder="">
+                </div>
+                <button id="cptP2" type="button" class="btn btn-success" data-toggle="modal" data-target="#miModal" >Result</button>
+                <button id="clnP2" type="button" class="btn btn-success">Back</button>
+            </form>
+        </div>
+        <div id="pagina3" class="container ocultar">
+            <form class="col-md-offset-4 col-md-4">
+                <div class="form-group">
+                    <label for="num3">Enter number one</label>
+                    <input type="number" class="form-control" id="num3" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="num4">Enter number two</label>
+                    <input type="number" class="form-control" id="num4" placeholder="">
+                </div>
+                <button id="cptP3" type="button" class="btn btn-success" data-toggle="modal" data-target="#miModal" >Result</button>
+                <button id="clnP3" type="button" class="btn btn-success">Back</button>
+            </form>
+        </div>
+        <div id="pagina4" class="container ocultar">
+            <form class="col-md-offset-4 col-md-4">
+                <div class="form-group">
+                    <label for="num5">Enter number one</label>
+                    <input type="number" class="form-control" id="num5" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="num6">Enter number two</label>
+                    <input type="number" class="form-control" id="num6" placeholder="">
+                </div>
+                <button id="cptP4" type="button" class="btn btn-success" data-toggle="modal" data-target="#miModal">Result</button>
+                <button id="clnP4" type="button" class="btn btn-success">Back</button>
+            </form>
+        </div>
+        <div class="modal fade" tabindex="-1" id="miModal" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Point 68</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p id="suma"></p>
+                        
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+
+
+
+        <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/vista.js" type="text/javascript"></script>
+        <script src="js/BaseDeDatos.js" type="text/javascript"></script>
+        <script src="js/punto68.js" type="text/javascript"></script>
+        <script>
+            var app = new principal();
+            app.textNombre = 'nombre';
+            app.textTelefono = 'telefono';
+            app.correr();
+        </script>
+
+    </body>
+>>>>>>> origin/master
 </html>

@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+/*body{
+  overflow-x: hidden;
+}*/ 
+/*#form__input{
+  position: absolute;
+  height: 25vh;
+  margin-top: -10%;
+  margin-left:  110vw;
+}*/
+
+>>>>>>> origin/master
 body {
     margin-top: 40px;
 }

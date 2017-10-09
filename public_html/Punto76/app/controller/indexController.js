@@ -8,6 +8,7 @@
     indexController.$inject = ['$scope', '$state'];
 
     function indexController($scope, $state) {
+<<<<<<< HEAD
         $scope.reset = function () {
             $scope.ocult = true;
             delete $scope.contac;
@@ -22,3 +23,9 @@
 
     }
 })();
+=======
+        
+    
+    }
+})();
+>>>>>>> origin/master
